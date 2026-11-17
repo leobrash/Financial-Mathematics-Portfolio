@@ -1,4 +1,4 @@
-# Financial Mathematics I: my study portfolio
+# Financial Mathematics I: Study Portfolio
 
 Leo Brash, Queen Mary University of London, 2026–27.
 
