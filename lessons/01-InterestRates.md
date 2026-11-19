@@ -14,7 +14,9 @@
     - Simple Interest: Interest is calculated on original principal: $P_t = P(1+rt),$ where $t$ is the time in years.
     - Compound Interest: Interest is added to the principal, meaning future interest is calculated on previously accumulated interest periodically: $P_t = \left(1+\frac{r}{n}\right)^{nt}P,$ where $n$ is the number of compounding periods per year. For example, $n=1$ is compounded annually, $n=2$ is compounded semi-annually, $n=12$ is compounded monthly, etc.
     - Compounding Effective Rate ($r_{eff}$): Standardizes nominal interest rates with different compounding frequencies.
+      
       $$r_{\text{eff}} = \left(1+\frac{r}{n}\right)^n - 1.$$
+      
     - Continuously Compounded Interest: Interest is compounded at an infinite frequency, periods are incredibly small: $P_t = Pe^{rt}.$
     - Continuously Compounding Effective Rate ($r_{eff}$): $r_{\text{eff}} = e^r - 1.$
 - Variable Interest Rates:
