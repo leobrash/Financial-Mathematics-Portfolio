@@ -7,58 +7,75 @@
 # Week 1: Interest Rates
 
 - Interest Rates:
-    - Principal (P or P_0): Initial amount invested or borrowed.
-    - Future Value (P_t or P_1): Amount received at the end of investment, the principal plus interest.
+    - Principal ($P$ or $P_0$): Initial amount invested or borrowed.
+    - Future Value ($P_t$ or $P_1$): Amount received at the end of investment, the principal plus interest.
     - Return: Future Value - Principal, quantity earned in interest.
-    - Percentage Return: 
+    - Percentage Return:
+      
       $$
       R = \frac{P_t - P}{P}
       $$
+  
     - Nominal Interest Rate (r): Stated interest rate.
     - Simple Interest: Interest is calculated on original principal.
+      
       $$
       P_t = P(1+rt)
       $$
-      where t is the time in years.
+  
+      where $t$ is the time in years.
     - Compound Interest: Interest is added to the principal, meaning future interest is calculated on previously accumulated interest periodically.
+      
       $$
       P_t = \left(1+\frac{r}{n}\right)^{nt}P
       $$
-      where n is the number of compounding periods per year.
+      
+      where $n$ is the number of compounding periods per year.
 
-      For example, n=1 is compounded annually, n=2 is compounded semi-annually, n=12 is compounded monthly, etc.
-    - Compounding Effective Rate (r_eff): Standardizes nominal interest rates with different compounding frequencies.
+      For example, $n=1$ is compounded annually, $n=2$ is compounded semi-annually, $n=12$ is compounded monthly, etc.
+    - Compounding Effective Rate ($r_eff$): Standardizes nominal interest rates with different compounding frequencies.
+      
       $$
       r_{\text{eff}} = \left(1+\frac{r}{n}\right)^n - 1
       $$
+  
     - Continuously Compounded Interest: Interest is compounded at an infinite frequency, periods are incredibly small.
+      
       $$
       P_t = Pe^{rt}
       $$
-    - Continuously Compounding Effective Rate (r_eff):
+  
+    - Continuously Compounding Effective Rate ($r_eff$):
+      
       $$
       r_{\text{eff}} = e^r - 1
       $$
 
 - Variable Interest Rates:
-    - Instantaneous Interest Rate: A continuously compounded rate where the interest rate r at time t is equal to r = r(t).
-    - Instantaneous Interest Rate on P:
+    - Instantaneous Interest Rate: A continuously compounded rate where the interest rate $r$ at time $t$ is equal to $r = r(t)$.
+    - Instantaneous Interest Rate on $P$:
+      
       $$
       P_t = P e^{\int_0^t r(u)\,du}
       $$
-    - Yield Curve: The average value of r(t) on the interval (0,t).
+      
+    - Yield Curve: The average value of $r(t)$ on the interval $(0,t)$.
+      
       $$
       \bar{r}(t) = \frac{1}{t}\int_0^t r(u)\,du
       $$
-    - It follows P_t = P e^{\bar{r}(t)t}
+      
+    - It follows $P_t = P e^{\bar{r}(t)t}$
     - Effective Rate: Expressed in terms of the yield curve:
+      
       $$
       r_{\text{eff}}(t) = e^{\bar{r}(t)} - 1
       $$
 
 - Inflation:
     - Prices increasing as a whole over time.
-    - Real Interest Rate (r_a):
+    - Real Interest Rate ($r_a$):
+      
       $$
       r_a = \frac{r-r_{\text{inf}}}{1+r_{\text{inf}}}
       $$
@@ -73,6 +90,7 @@ Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charge
       $$
       r_{\text{eff}} = \left(1+\frac{0.16}{2}\right)^2 - 1 = 0.1664
       $$
+  
 - Bank B:
       $$
       r_{\text{eff}} = e^{0.16}-1 = 0.1735
@@ -83,7 +101,7 @@ Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charge
 
 ### Exercise 1.8
 
-Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded n times a year. Calculate how much money you will have in the bank in one year as n tends to infinity.
+Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded $n$ times a year. Calculate how much money you will have in the bank in one year as $n$ tends to infinity.
 
 $$
 P(n) = \left(1+\frac{1}{n}\right)^n
