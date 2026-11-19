@@ -46,7 +46,7 @@ $$\lim_{n\to\infty} P(n) = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n = Pe^{r
 
 ### Exercise 1.11
 
-From Capinski & Zastawniak, \*Mathematics for Finance: An Introduction to Financial Engineering\*.
+From Capinski & Zastawniak, *Mathematics for Finance: An Introduction to Financial Engineering*.
 
 In 1626 Peter Minuit, governor of the colony of New Netherland, bought the island of Manhattan from Native Americans paying with beads, cloth, and trinkets worth $24. Find the value of this sum in year 2026 at 5% compounded
 
