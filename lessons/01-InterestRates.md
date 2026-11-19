@@ -19,7 +19,7 @@
 - Variable Interest Rates:
     - Instantaneous Interest Rate: A continuously compounded rate where the interest rate $r$ at time $t$ is equal to $r = r(t)$.
     - Instantaneous Interest Rate on $P$: $P_t = P e^{\int_0^t r(u)du}.$
-    - Yield Curve: The average value of $r(t)$ on the interval $(0,t)$: $\bar{r}(t) = \frac{1}{t}\int_0^t r(u)\,du.$     
+    - Yield Curve: The average value of $r(t)$ on the interval $(0,t)$: $\bar{r}(t) = \frac{1}{t}\int_0^t r(u)du.$     
     - It follows $P_t = P e^{\bar{r}(t)t}.$
     - Effective Rate expressed in terms of the yield curve: $r_{\text{eff}}(t) = e^{\bar{r}(t)} - 1.$
 - Inflation:
