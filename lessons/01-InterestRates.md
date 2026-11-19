@@ -61,5 +61,4 @@ $$P(t) = P(1+r)^{t} = 24(1+0.05)^{400} = 7,176,800,430.$$
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
-does, which cells to change and what to look at.
+[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): This spreadsheet compares different compounding frequencies and how these different frequencies affect the effective annual rate. In cell B4 the user should enter the desired nominal interest rate as a percentage (for example: 6% or 3.56%) and compare the resulting effective annual rates. There is also a chart which illustrates what is seen in the table. 
