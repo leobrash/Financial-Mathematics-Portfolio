@@ -8,7 +8,7 @@
 - Interest Rates:
     - Principal ($P$ or $P_0$): Initial amount invested or borrowed.
     - Future Value ($P_t$ or $P_1$): Amount received at the end of investment, the principal plus interest.
-    - Return: Future Value - Principal, quantity earned in interest.
+    - Return: Future Value $-$ Principal, quantity earned in interest.
     - Percentage Return: $R = \frac{P_t - P}{P}.$
     - Nominal Interest Rate ($r$): Stated interest rate.
     - Simple Interest: Interest is calculated on original principal: $P_t = P(1+rt),$ where $t$ is the time in years.
