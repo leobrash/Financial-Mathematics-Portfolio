@@ -12,18 +12,8 @@
     - Return: Future Value - Principal, quantity earned in interest.
     - Percentage Return: $R = \frac{P_t - P}{P}.$
     - Nominal Interest Rate (r): Stated interest rate.
-    - Simple Interest: Interest is calculated on original principal.
-      
-      $$P_t = P(1+rt)$$
-  
-      where $t$ is the time in years.
-    - Compound Interest: Interest is added to the principal, meaning future interest is calculated on previously accumulated interest periodically.
-      
-      $$
-      P_t = \left(1+\frac{r}{n}\right)^{nt}P
-      $$
-      
-      where $n$ is the number of compounding periods per year.
+    - Simple Interest: Interest is calculated on original principal: $P_t = P(1+rt)$ where $t$ is the time in years.
+    - Compound Interest: Interest is added to the principal, meaning future interest is calculated on previously accumulated interest periodically: $P_t = \left(1+\frac{r}{n}\right)^{nt}P$ where $n$ is the number of compounding periods per year.
 
       For example, $n=1$ is compounded annually, $n=2$ is compounded semi-annually, $n=12$ is compounded monthly, etc.
     - Compounding Effective Rate ($r_eff$): Standardizes nominal interest rates with different compounding frequencies.
