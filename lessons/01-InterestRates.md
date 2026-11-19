@@ -24,7 +24,7 @@
     - Effective Rate expressed in terms of the yield curve: $r_{\text{eff}}(t) = e^{\bar{r}(t)} - 1.$
 - Inflation:
     - Prices increasing as a whole over time.
-    - Real Interest Rate ($r_a$):$r_a = \frac{r-r_{\text{inf}}}{1+r_{\text{inf}}}.$
+    - Real Interest Rate ($r_a$): $r_a = \frac{r-r_{\text{inf}}}{1+r_{\text{inf}}}.$
 
 ## My example
 Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charges a 16% nominal rate compounded continuously. Which bank offers a better deal?
