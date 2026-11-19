@@ -13,10 +13,6 @@ module MTH6154 Financial Mathematics I.
 | 4 | Bonds | | |
 | 5 | Stochastic interest rates | | |
 | 6 | Equities and derivatives | | |
-| 8 | The arbitrage theorem | | |
-| 9 | One-period binomial model | | |
-| 10 | Multi-period binomial model | | |
-| 11 | Black–Scholes | | |
 
 ## AI use
 
