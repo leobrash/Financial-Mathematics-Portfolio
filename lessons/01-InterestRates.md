@@ -30,7 +30,7 @@
 Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charges a 16% nominal rate compounded continuously. Which bank offers a better deal?
 
 - Bank A: $r_{\text{eff}} = \left(1+\frac{0.16}{2}\right)^2 - 1 = 0.1664.$
-- Bank B:$r_{\text{eff}} = e^{0.16}-1 = 0.1735.$
+- Bank B: $r_{\text{eff}} = e^{0.16}-1 = 0.1735.$
 - We conclude that Bank A offers a better deal. 
 
 ## Solved exercises
