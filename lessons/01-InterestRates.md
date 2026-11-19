@@ -54,10 +54,10 @@ In 1626 Peter Minuit, governor of the colony of New Netherland, bought the islan
 (b) annually. 
 
 (a) 
-$$P(t) = Pe^{rt} = P(400) = 24e^{0.05(400)} = 11643964700.$$
+$$P(t) = Pe^{rt} = P(400) = 24e^{0.05(400)} = 11,643,964,700.$$
 
 (b)
-$$P(t) = P(1+r)^{t} = 24(1+0.05)^{400} = 7176800430.$$
+$$P(t) = P(1+r)^{t} = 24(1+0.05)^{400} = 7,176,800,430.$$
 
 ## Spreadsheet
 
