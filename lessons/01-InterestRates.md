@@ -29,8 +29,6 @@
 ## My example
 Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charges a 16% nominal rate compounded continuously. Which bank offers a better deal?
 
-Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charges a 16% nominal rate compounded continuously. Which bank offers a better deal?
-
 - Bank A: $r_{\text{eff}} = \left(1+\frac{0.16}{2}\right)^2 - 1 = 0.1664.$
 - Bank B:$r_{\text{eff}} = e^{0.16}-1 = 0.1735.$
 - We conclude that Bank A offers a better deal. 
@@ -42,7 +40,7 @@ Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounde
 
 $$P(n) = \left(1+\frac{1}{n}\right)^n.$$
 
-Taking the limit of $P(n)$ as $n$ tends to infinity gives:
+Taking the limit of $P(n)$ as $n$ approaches infinity:
 
 $$\lim_{n\to\infty} P(n) = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n = Pe^{r} = 1e^{1} = e.$$
 
