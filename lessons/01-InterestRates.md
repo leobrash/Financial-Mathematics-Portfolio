@@ -42,7 +42,9 @@ $$P(n) = P\left(1+\frac{1}{n}\right)^n.$$
 
 Taking the limit of $P(n)$ as $n$ approaches infinity:
 
-$$\lim_{n\to\infty} P(n) = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n = Pe^{r} = 1e^{1} = e.$$
+$$\lim_{n\to\infty} P(n) = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n = e.$$
+
+Expanding the limit produces the infinite series $\sum_{k=0}^{\infty} \frac{1}{k!}$, which matches the Taylor expansion of $e^x$ at $x=1.$
 
 ### Exercise 1.11
 
