@@ -38,7 +38,7 @@ Bank A charges a 16% nominal rate compounded semi-annually whereas Bank B charge
 ### Exercise 1.8
 Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded $n$ times a year. Calculate how much money you will have in the bank in one year as $n$ tends to infinity.
 
-$$P(n) = \left(1+\frac{1}{n}\right)^n.$$
+$$P(n) = P\left(1+\frac{1}{n}\right)^n.$$
 
 Taking the limit of $P(n)$ as $n$ approaches infinity:
 
