@@ -4,14 +4,80 @@
 
 ## Summary
 
-In your own words, the main ideas of the lesson. Short sentences are fine.
+# 2. Present Value
 
-Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
-as $A = P(1+i)^n$, and a displayed formula uses double dollars:
+## Summary
 
-$$
-\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
-$$
+- Present Values:
+    - Cash Flows: Sequence of payments specified by the amount $C$ and the time $t$. So a sequence of cashflows is denoted $C_1, C_2, \ldots, C_n$ paid at times $t_1, t_2, \ldots, t_n$.
+    - Assets & Liabilities: An asset is a positive cash flow & a liability is a negative cash flow.
+
+    - Present Value (PV): The present value $P$ at time $t$ is the amount you must deposit now so at time $t$ you have $P_t$.
+
+    - Discount Factor (D(t)): The discount factor $D(t)$ to time $t$ is the present value of 1 unit of cash at time $t$.
+
+    - Different Present Values and Discount Factors:
+        - Compounded Annually: For a nominal rate $r$ and cashflow $C$ paid in $t$ years the present value is $PV = \frac{C}{(1+r)^t}$ with discount factor to $t$ years:
+
+      $$
+      D(t) = \frac{1}{(1+r)^t}
+      $$
+
+        - Effective rate: For an effective rate $r_{\text{eff}}$ and cashflow $C$ paid in $t$ years the present value is $PV = \frac{C}{(1+r_{\text{eff}})^t}$ with discount factor to $t$ years:
+
+      $$
+      D(t) = \frac{1}{(1+r_{\text{eff}})^t}
+      $$
+
+        - Compounded Monthly: For a monthly compounded rate $r$ and cashflow $C$ paid in $t$ years the present value is $PV = \frac{C}{(1+\frac{r}{12})^{12t}}$ with discount factor:
+
+      $$
+      D(t) = \frac{1}{(1+\frac{r}{12})^{12t}}
+      $$
+
+        - Continuously Compounded Rate: For a continuously compounded interest rate $r$ and cashflow $C$ paid in $t$ years the present value is $PV = Ce^{-rt}$ with discount factor to $t$ years:
+
+      $$
+      D(t) = e^{-rt}
+      $$
+
+  - Net Present Value (NPV): The sum of the present values of a sequence of cashflows $C_1, C_2, \ldots, C_n$ paid at times $t_1, t_2, \ldots, t_n$.
+
+  $$
+  NPV = \sum_{i=1}^{n} D(t_i) \cdot C_i
+  $$
+
+  - Balanced: Assets and liabilities are balanced if $NPV = 0$.
+
+  - NPV Analysis: $NPV > 0$ suggests investment was good and $NPV < 0$ suggests investment was bad.
+
+- Rates of Return:
+    - Amount $P$ which later results in value $P_{\text{final}}$. The return on the investment is the quantity $P_{\text{final}}$. The profit is the difference $P_{\text{final}} - P$. The rate of return is:
+
+      $$
+      R = \frac{P_{\text{final}}-P}{P}
+      $$
+
+    - Equivalent Effective Rate: Standardized equation to compare rates of return:
+
+      $$
+      \left(\frac{P_{\text{final}}}{P}\right)^{1/t}-1
+      $$
+
+    - Annualized Rate of Return:
+
+      $$
+      r = \frac{R}{T}
+      $$
+
+    - Internal Rate of Return (IRR): For a sequence of cashflows $C_0, C_1, \ldots, C_n$ at times $t_0, t_1, \ldots, t_n$. The IRR is the unique rate $r$ that satisfies:
+
+      $$
+      C_0 + \frac{C_1}{(1+r)^{t_1}} + \cdots + \frac{C_n}{(1+r)^{t_n}} = 0
+      $$
+
+- Market Risk:
+    - Rates fluctuate and change based on a variety of factors.
 
 ## My example
 
