@@ -3,11 +3,6 @@
 [Back to contents](../README.md)
 
 ## Summary
-
-# 2. Present Value
-
-## Summary
-
 - Present Values:
     - Cash Flows: Sequence of payments specified by the amount $C$ and the time $t$. So a sequence of cashflows is denoted $C_1, C_2, \ldots, C_n$ paid at times $t_1, t_2, \ldots, t_n$.
     - Assets & Liabilities: An asset is a positive cash flow & a liability is a negative cash flow.
