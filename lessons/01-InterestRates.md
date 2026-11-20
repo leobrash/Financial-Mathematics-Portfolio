@@ -3,8 +3,6 @@
 [Back to contents](../README.md)
 
 ## Summary
-
-# Week 1: Interest Rates
 - Interest Rates:
     - Principal ($P$ or $P_0$): Initial amount invested or borrowed.
     - Future Value ($P_t$ or $P_1$): Amount received at the end of investment, the principal plus interest.
