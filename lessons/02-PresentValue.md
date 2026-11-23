@@ -42,7 +42,7 @@
 
 Suppose John invests £100 into the S&P 500. His initial investment is now valued at £150. What is the rate of return? 
 
-$$R = \frac{P_{\text{final}}-P}{P} = \frac{150-100}{100} = 0.5 = 50\%$$
+$$R = \frac{P_{\text{final}}-P}{P} = \frac{150-100}{100} = 0.5 = 50 \%$$
 
 ## Solved exercises
 
