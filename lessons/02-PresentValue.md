@@ -51,4 +51,4 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): 
+[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): This spreadsheet calculates the NPV and IRR of a series of cash flows over time. The user can enter up to 100 dates and corresponding cash flows in cells A6/B6 through A105/B105. The rate can be adjusted in cell F3. The spreadsheet then calculates present value of each cash flow and the NPV. The user can compare the calculated NPV with Excel functions that do so. The goal is to adjust the rate until the NPV reaches 0. 
