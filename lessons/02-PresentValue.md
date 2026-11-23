@@ -46,9 +46,74 @@ $$R = \frac{P_{\text{final}}-P}{P} = \frac{150-100}{100} = 0.5 = 50\\%.$$
 
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+### Exercise 2.1 
 
-Question, then your solution.
+Calculate the internal rate of return of an investment that, for an initial £1,000, gives payments of £500 at the end of the second year and £750 at the end of the fourth year.
+
+$$
+-1000 + \frac{500}{(1+r)^2} + \frac{750}{(1+r)^4} = 0
+$$
+
+Let
+
+$$
+x = \frac{1}{(1+r)^2}
+$$
+
+$$
+\Rightarrow -1000 + 500x + 750x^2 = 0
+$$
+
+$$
+\Rightarrow 3x^2 + 2x - 4 = 0
+$$
+
+Using the quadratic formula:
+
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
+$$
+\Rightarrow x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6}
+$$
+
+$$
+\Rightarrow x = \frac{-2 \pm \sqrt{52}}{6}
+$$
+
+$$
+\Rightarrow x = \frac{-1+\sqrt{13}}{3}
+$$
+
+$$
+\Rightarrow \frac{1}{x} = (1+r)^2
+$$
+
+$$
+\Rightarrow \frac{3}{\sqrt{13}-1} = (1+r)^2
+$$
+
+$$
+\Rightarrow \frac{3(\sqrt{13}+1)}{13-1} = (1+r)^2
+$$
+
+$$
+\Rightarrow (1+r)^2 = \frac{\sqrt{13}+1}{4}
+$$
+
+$$
+\Rightarrow 1+r = \sqrt{\frac{\sqrt{13}+1}{4}}
+$$
+
+$$
+\Rightarrow r = \frac{\sqrt{\sqrt{13}+1}}{2}-1
+$$
+
+$$
+\Rightarrow r = 0.073 \Rightarrow r = 7.3\%
+$$
+
 
 ## Spreadsheet
 
