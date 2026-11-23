@@ -75,7 +75,7 @@ $$
 Since $x = \frac{1}{(1+r)^2} > 0$ we only consider the positive branch. 
 
 $$
-x = \frac{1}{(1+r)^2} \Rightarrow \frac{1}{0.8685170918} = (1+r)^2 \Rightarrow \sqrt{\frac{1}{0.8685170918}} = 1+r 
+0.8685170918 = \frac{1}{(1+r)^2} \Rightarrow \frac{1}{0.8685170918} = (1+r)^2 \Rightarrow \sqrt{\frac{1}{0.8685170918}} = 1+r \Rightarrow \sqrt{\frac{1}{0.8685170918}} -1 = r
 $$
 
 $$
