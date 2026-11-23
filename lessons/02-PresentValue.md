@@ -79,7 +79,7 @@ $$
 $$
 
 $$
-\Rightarrow r = 0.073 \Rightarrow r = 7.3\%
+\Rightarrow r = 0.073 \Rightarrow r = 7.3\\%.
 $$
 
 
