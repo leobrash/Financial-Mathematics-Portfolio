@@ -40,8 +40,9 @@
 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+Suppose John invests £100 into the S&P 500. His initial investment is now valued at £150. What is the rate of return? 
+
+$R = \frac{P_{\text{final}}-P}{P} = \frac{P_{150}-100}{100} = 50$
 
 ## Solved exercises
 
