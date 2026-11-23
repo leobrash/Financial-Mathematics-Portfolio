@@ -69,8 +69,9 @@ $$
 Using the quadratic formula:
 
 $$
-x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6} \Rightarrow x = \frac{-2 \pm \sqrt{52}}{6} \Rightarrow x = \frac{-1+\sqrt{13}}{3}
+x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6} \Rightarrow x = \frac{-2 \pm \sqrt{52}}{6} \Rightarrow x = -1.535183758 \text{or} x= 0.8685170918.
 $$
+
 
 $$
 \Rightarrow \frac{1}{x} = (1+r)^2
