@@ -60,12 +60,9 @@ $$
 x = \frac{1}{(1+r)^2}
 $$
 
-$$
-\Rightarrow -1000 + 500x + 750x^2 = 0
-$$
-
-$$
-\Rightarrow 3x^2 + 2x - 4 = 0
+Then 
+$$ 
+-1000 + 500x + 750x^2 = 0 \Rightarrow 3x^2 + 2x - 4 = 0
 $$
 
 Using the quadratic formula:
