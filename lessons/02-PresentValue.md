@@ -51,5 +51,4 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
-does, which cells to change and what to look at.
+[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): 
