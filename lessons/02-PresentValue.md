@@ -69,19 +69,7 @@ $$
 Using the quadratic formula:
 
 $$
-x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
-$$
-
-$$
-\Rightarrow x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6}
-$$
-
-$$
-\Rightarrow x = \frac{-2 \pm \sqrt{52}}{6}
-$$
-
-$$
-\Rightarrow x = \frac{-1+\sqrt{13}}{3}
+x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6} \Rightarrow x = \frac{-2 \pm \sqrt{52}}{6} \Rightarrow x = \frac{-1+\sqrt{13}}{3}
 $$
 
 $$
