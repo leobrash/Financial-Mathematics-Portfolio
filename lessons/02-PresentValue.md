@@ -82,6 +82,59 @@ $$
 \Rightarrow r \approx 0.073 \Rightarrow r = 7.3\\%.
 $$
 
+### Exercise 2.2
+
+After graduation you have two job offers, both for a fixed term of 3 years:
+
+- **Company A** offers you a salary of £65,000 at the end of the first year, £75,000 at the end of the second year, and £115,000 at the end of your final year.
+- **Company B** offers you a signing bonus of £15,000 when you start the job, and then a constant salary of £79,000 at the end of each of the three years.
+
+By comparing the present values of the pay packages, determine which company offers the better deal if the interest rate is 3.75% and is compounded
+
+(i) annually,
+
+(ii) continuously.
+
+**(i) Annually**
+
+$$
+PV(A) = \frac{65000}{1+0.0375} + \frac{75000}{(1+0.0375)^2} + \frac{115000}{(1+0.0375)^3}
+$$
+
+$$
+= £235,302.3066
+$$
+
+$$
+PV(B) = 15000 + \frac{79000}{1+0.0375} + \frac{79000}{(1+0.0375)^2} + \frac{79000}{(1+0.0375)^3}
+$$
+
+$$
+= £235,276.5715
+$$
+
+Company A offers the better deal when compounded annually.
+
+**(ii) Continuously**
+
+$$
+PV(A) = 65000e^{-0.0375} + 75000e^{-0.0375(2)} + 115000e^{-0.0375(3)}
+$$
+
+$$
+= £234,952.0935
+$$
+
+$$
+PV(B) = 15000 + 79000e^{-0.0375} + 79000e^{-0.0375(2)} + 79000e^{-0.0375(3)}
+$$
+
+$$
+= £234,978.2848
+$$
+
+Company B offers the better deal when compounded continuously.
+
 
 ## Spreadsheet
 
