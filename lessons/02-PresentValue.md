@@ -95,7 +95,7 @@ By comparing the present values of the pay packages, determine which company off
 
 (ii) continuously.
 
-**(i) Annually**
+(i)
 
 $$
 PV(A) = \frac{65000}{1+0.0375} + \frac{75000}{(1+0.0375)^2} + \frac{115000}{(1+0.0375)^3}
@@ -115,7 +115,7 @@ $$
 
 Company A offers the better deal when compounded annually.
 
-**(ii) Continuously**
+(ii)
 
 $$
 PV(A) = 65000e^{-0.0375} + 75000e^{-0.0375(2)} + 115000e^{-0.0375(3)}
