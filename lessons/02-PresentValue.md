@@ -72,10 +72,10 @@ $$
 x = \frac{-2 \pm \sqrt{2^2-4(3)(-4)}}{6} \Rightarrow x = \frac{-2 \pm \sqrt{52}}{6} \Rightarrow x = -1.535183758 \ \text{or} \ x= 0.8685170918.
 $$
 
-Since $x = (1+r)^2 > 0$ we only consider the positive branch. 
+Since $x = \frac{1}{(1+r)^2} > 0$ we only consider the positive branch. 
 
 $$
-x = (1+r)^2 \Rightarrow 0.8685170918 = (1+r)^2 \Rightarrow \sqrt0.8685170918 = 1+r 
+x = \frac{1}{(1+r)^2} \Rightarrow \frac{1}{0.8685170918} = (1+r)^2 \Rightarrow \sqrt{\frac{1}{0.8685170918} = 1+r 
 $$
 
 $$
